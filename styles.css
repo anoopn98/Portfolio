@@ -39,6 +39,7 @@ nav ul li{
 }
 
 nav ul li a{
+    position: fixed;
     color:rgb(10, 10, 10);
     text-decoration: none;
     font-weight: bold;
@@ -61,14 +62,6 @@ nav ul li a:hover{
     transform: translate(-10px);
     cursor: pointer;
 }
-
-.nav li :after{
-    content:'|';
-    display:inline-block;
-    color:#dddddd;
-    vertical-align:middle;
-}
-
 .main{
     position: fixed;
     padding: 10px;
