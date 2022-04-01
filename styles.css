@@ -20,10 +20,9 @@ nav
     padding-left: 10%;
     padding-right: 10%;
 }
-
 .logo
 {
-    color:rgb(255, 251, 251);
+    color:rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 500;
 }
@@ -39,7 +38,6 @@ nav ul li{
 }
 
 nav ul li a{
-    position: fixed;
     color:rgb(10, 10, 10);
     text-decoration: none;
     font-weight: bold;
@@ -62,6 +60,7 @@ nav ul li a:hover{
     transform: translate(-10px);
     cursor: pointer;
 }
+
 .main{
     position: fixed;
     padding: 10px;
